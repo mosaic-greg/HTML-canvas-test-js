@@ -1,2 +1,25 @@
-# beginner-js
+<!DOCTYPE html>
+
 <html>
+<body>
+
+<canvas id="myCanvas" width="400" height="500" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+ 
+
+for (i = 0; i < 15; i++){
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo((10 + (i*20)) , (50 + (i*60)));
+ctx.lineTo(300 + (i*20),100 +(i*20) );
+ctx.stroke(); 
+
+
+}
+</script>
+</canvas>
+</body>
+</html>
