@@ -1,3 +1,3 @@
  
 
-HTML5 Canvas test : https://rawgit.com/mosaic-greg/beginner-js/master/index.htm
+HTML5 Canvas test : https://cdn.jsdelivr.net/gh/mosaic-greg/beginner-js/index.htm
